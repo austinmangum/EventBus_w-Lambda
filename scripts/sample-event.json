@@ -1,0 +1,7 @@
+{
+  "customer": { "districtId": "D123", "schoolId": "S456", "email": "teacher@example.edu" },
+  "items": [{ "sku": "HEG-PHONEMIC-G1", "qty": 1, "unitPrice": 129.0 }],
+  "currency": "usd",
+  "paymentMethod": "credit_card",
+  "shipTo": { "line1": "123 Main", "city": "Chicago", "region": "IL", "postal": "60601" }
+}

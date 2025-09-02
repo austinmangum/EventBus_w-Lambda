@@ -1,0 +1,24 @@
+{
+  "name": "eventbus-mvp",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p .",
+    "build:one": "node scripts/build-one.js",
+    "build:all": "node scripts/build-all.js",
+    "build:layer": "node scripts/build-layer.cjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.637.0",
+    "@aws-sdk/lib-dynamodb": "^3.637.0",
+    "stripe": "^16.5.0",
+    "pino": "^9.2.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "@types/aws-lambda": "^8.10.137",
+    "@types/node": "^20.11.30",
+    "esbuild": "^0.23.0"
+  }
+}
